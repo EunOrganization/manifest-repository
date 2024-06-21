@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: time
-  name: time-deploy
+  name: deploy-time
   namespace: default
 spec:
   replicas: 1
