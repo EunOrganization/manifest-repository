@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-time
+  namespace: default
+spec:
+  type: ClusterIP
+  selector:
+    app: time
+  ports:
+  - port: 3000
