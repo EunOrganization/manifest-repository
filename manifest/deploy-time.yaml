@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: time
-  name: time-deploy
+  name: deploy-time
   namespace: default
 spec:
   replicas: 1
@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: time-container
-        image: 058264152241.dkr.ecr.ap-northeast-2.amazonaws.com/juju/70e905dd9762b68fbf4a0445abbc120e1a1cf467
+        image: 058264152241.dkr.ecr.ap-northeast-2.amazonaws.com/juju:70e905dd9762b68fbf4a0445abbc120e1a1cf467
         ports:
         - containerPort: 3000
