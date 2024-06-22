@@ -7,3 +7,7 @@ spec:
   type: Nodeport
   selector:
     app: time
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
