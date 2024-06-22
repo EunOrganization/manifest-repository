@@ -4,8 +4,6 @@ metadata:
   name: svc-time
   namespace: default
 spec:
-  type: ClusterIP
+  type: Nodeport
   selector:
     app: time
-  ports:
-  - port: 3000
