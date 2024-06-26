@@ -16,9 +16,9 @@ spec:
         app: time
     spec:
       containers:
-      - name: time-container
-        image: 058264152241.dkr.ecr.ap-northeast-2.amazonaws.com/juju:675d96af6acd2f43ce24c79e48c82d150cf83443
-        ports:
-        - containerPort: 3000
+        - name: time-container
+          image: 058264152241.dkr.ecr.ap-northeast-2.amazonaws.com/juju:dbe0c02edb39fee9c577d78b855a811e3989a083
+          ports:
+            - containerPort: 3000
       imagePullSecrets:
-      - name: ap-northeast-2-ecr-registry
+        - name: ap-northeast-2-ecr-registry
