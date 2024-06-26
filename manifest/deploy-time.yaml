@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: time-container
-          image: 058264152241.dkr.ecr.ap-northeast-2.amazonaws.com/juju:92c6f8e0c1a93043c3bb75117635190e5bd3b88e
+          image: ""
           ports:
             - containerPort: 3000
       imagePullSecrets:
