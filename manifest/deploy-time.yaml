@@ -21,4 +21,4 @@ spec:
           ports:
             - containerPort: 3000
       imagePullSecrets:
-        - name: ap-northeast-2-ecr-registry-2
+        - name: ap-northeast-2-ecr-registry-3
