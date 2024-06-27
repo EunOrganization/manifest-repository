@@ -31,4 +31,4 @@ spec:
       - name: time-container
         image: 058264152241.dkr.ecr.ap-northeast-2.amazonaws.com/juju:v1
         ports:
-        - containerPort: 3000
+        - containerPort: 8080
