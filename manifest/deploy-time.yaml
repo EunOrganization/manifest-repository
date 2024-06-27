@@ -19,6 +19,6 @@ spec:
         - name: time-container
           image: 058264152241.dkr.ecr.ap-northeast-2.amazonaws.com/juju:20794a0a73d0c31957c6fe32143fc58b596b930e
           ports:
-            - containerPort: 3000
+            - containerPort: 8080
       imagePullSecrets:
         - name: ap-northeast-2-ecr-registry-3
