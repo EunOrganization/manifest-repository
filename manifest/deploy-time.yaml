@@ -6,7 +6,7 @@ metadata:
   name: deploy-time
   namespace: default
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: time
