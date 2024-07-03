@@ -21,4 +21,4 @@ spec:
           ports:
             - containerPort: 8080
       imagePullSecrets:
-        - name: ap-northeast-2-ecr-registry-3
+        - name: ap-northeast-2-ecr-registry-4
